@@ -1,0 +1,71 @@
+dependencies:-
+
+backend
+1. openPDF
+2. spring starter mail
+
+
+
+frontend
+1. taiwind CSS.
+2. flaticons images. Not using component icons.
+
+
+Requirements:-
+
+common system to centralize bus booking.
+
+system-
+    -Type 1 users
+    -Type 2 users
+
+Type 1:-
+    -admins
+    -can modify vehicle details, cancel payments and route updates.
+Type 2:-
+    -users
+    -can book tickets and cancel tickets.
+    -inquire bus informations.
+
+
+
+
+bus admins --------------------   system    --------------users 
+
+system --------------bus DB
+      |--------------user DB
+
+
+
+Auth:-
+1. Email verification with OTP notification.
+2. JWT or cookies storage.
+
+
+System internals:
+
+Payment:-
+sandbox
+
+Development tools:-
+Intellij IDEA
+Webstorm
+
+Database:-
+mysql
+
+Frameworks:-
+ReactJS
+Spring boot
+
+PDF:-
+openPDF
+
+
+Design:
+login 
+homepage 
+bus booking and cancellation page
+admin portal.
+
+
